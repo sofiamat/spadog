@@ -29,3 +29,45 @@ body {
 .nav-link:hover {
   color: var(--color-button);
 }
+
+/* hero */
+.hero-title {
+  font-size: 64px;
+}
+
+.hero-title-part {
+  font-weight: 700;
+  font-size: 64px;
+  text-transform: capitalize;
+}
+
+.hero-button {
+  line-height: 1.5;
+  letter-spacing: 0.06px;
+  background-color: var(--color-button);
+  font-family: var(--font-secondary);
+}
+
+/* about */
+.about {
+  background-color: var(--color-bg-section);
+}
+
+.about-title {
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 40px;
+}
+
+.about-text {
+  font-size: 32px;
+  line-height: 1.19;
+}
+
+.about-link {
+  font-family: var(--font-secondary);
+  color: var(--color-text-primary);
+  background-color: var(--color-button);
+  line-height: 1.5;
+  text-decoration: none;
+}
